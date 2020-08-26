@@ -11,7 +11,7 @@ public class TwitchIRC : MonoBehaviour
     StreamReader reader;
     StreamWriter writer;
 
-    [SerializeField] string username, password, channelName;
+    string username = "skylarrider", password = "oauth:b8rtevb9bp7xmt2my5fzznt86qg3b9", channelName = "skylarrider";
 
     [SerializeField] Transform trsCube;
 
